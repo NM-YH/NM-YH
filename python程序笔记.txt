@@ -1,0 +1,82 @@
+python程序笔记
+
+输出文字：
+可用print指令，如下
+print("hello world!")
+会输出：
+hello world！
+注：没有打括号及引号将会显示“程序错误”
+
+另开新行：
+直接的另开新行会导致程序错误
+所以要添加"\n"
+例子：
+print("I want to eat banana.\n But I also want to eat apple,\n\n so I eat apple and banana.")
+会输出：
+I want to eat banana. But I also want to eat apple,
+    so I eat apple and banana.
+变量：
+变量是一种基本数据的种类，给予变量数据可以制作非常多种类的程序，例如：
+将游戏分数设为1
+当游戏数据为3时，游戏结束
+变量的基本作用如下：
+逻辑（if，else）
+数值
+列表
+布尔值（？）
+
+变量的赋值1：
+比如要设定游戏生命剩余，可使用
+game live=3
+即变量名称=数值或列表
+可使用数字，大小写英文字母和下横线
+不可使用空白字符，特殊字符，程序名称，
+容易混淆的字符(o0IL）使用数字作为变量名称
+
+变量的赋值2：
+比如要输出“你好”
+shy_hi=“hello”（赋予文字需加引号）
+print（hello）（变量不需要加引号）
+就会输出“hello”
+但其实不建议为了输出单一字符而建立一个变量
+
+覆盖变量的数值：
+比如游戏生命为3需覆盖游戏生命为2
+liveleft=3
+liveleft=2
+print（liveleft）
+就会输出“2“
+
+变量内的引号：
+可以通过加\来进行分割
+例子：
+strange=”He is a \"strange"\ guy."
+print(shrange)
+会输出"He is a "shrange" guy."
+
+重复文字及添加
+  比如说要说三遍“hello”
+print（“hello ”*3）
+会输出hello hello hello 
+  比如说要在原有的基础上再添加文字，例子：
+part1="hello"
+part2="boys and girls"
+whole=part1+part2
+print（whole）
+就会输出：
+helloboys and girls
+可以要原有的基础上在添加：
+print(part1+","+part2)
+就会输出hello，boys and girls
+
+询问：
+如果要询问对方问题，可以使用“input”，例子：
+variable=input("add text here")
+print(variable)
+就会输出“add text here”
+具体运用：
+name=input("what is your name?)
+xxxxx
+print("my name is "+name)
+就会输出：
+my name is xxxxx

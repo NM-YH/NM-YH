@@ -1,0 +1,29 @@
+netsh wlan show profile（wifi详细信息）
+netsh wlan show profile wifi名 key=clear（wifi详细信息）
+ipconfig（查IP）
+ping IP或网址(查ping）
+pathping IP或网址 p/50 /h 3(查具体ping）
+msg /server:对方ip * ”内容“
+nslookup 网址（联系方式）
+net share（查看共享状态）
+netstat（互联网状态）
+netstat /a /n(所有产生过的链接）
+tree（树状图读盘）
+dir（普通读盘）
+mkdir file_name(创建文件）
+rd file_name（删除文件）
+echo text >text_file_name.txt
+del text_file_name.txt
+copy "文件路径” “文件路径”
+copy "文件路径”+“文件路径“+"文件路径” “文件路径”（复制至单一文件夹）
+type 文件名称（读取内容）
+ren 文件名称 要改的文件名称（该文件名称）
+cls（清理cmd界面）
+systeminfo（系统咨询）
+tasklist （查正在执行的进程）
+taskkill /im 进程名称（关闭进程）
+shutdown -s -t 60（60秒后关机）
+shutdown -a（取消定时关机）
+sfc（系统的一些工具）
+clearmgr（磁盘清理）
+color -a（换颜色1234567890bcdefg）
