@@ -1,0 +1,17 @@
+X=msgbox("text",3+16,"text")
+X=msgbox("text",3+64,"text")
+X=msgbox("你想?在?描此???？",4+32,"Windows Defender")
+X=msgbox("?描中...",2+64,"Windows Defender")
+X=msgbox("??了已知的病毒,是否?除?",4+48,"Windows Defender")
+X=msgbox("?法?除此病毒",1+16，"Windows Defender")
+X=msgbox("?法?止病毒?程",0+16,"System")
+X=msgbox("正在上?你的????及密?至我的github中?我好好??",2+64,“Virus”)
+X=msgbox("?法?止操作",0+16,"virus")
+set WSHshell=wscript.createobject("wscript.shell")
+Wshell.run "cmd /c""cd C:/&&cd Windows&&cd system32&&dir",4,true
+X=msgbox("?除系?文件中...",1+64,"virus")
+X=msgbox("?想取消操作？?都?有！","virus")
+set wmp=createobject("wmplayer.ocx")
+set cd=wmp.cdromcollection.item(0)
+cd.eject
+X=("你不?以?我真有那么吊吧，??吧..."),0+64,"LLW")
